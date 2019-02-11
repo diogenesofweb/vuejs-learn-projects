@@ -1,18 +1,36 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <BlogList/>
+    <BlogsToShow/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import BlogAdd from "../components/BlogAdd.vue";
+import BlogsToShow from "../components/BlogsToShow.vue";
+import BlogList from "../components/BlogList.vue";
 
 export default {
-  name: 'home',
+  name: "home",
   components: {
-    HelloWorld
+    BlogsToShow,
+    BlogList
+  },
+  data() {
+    return {
+      comp: "AppFooter"
+    };
+  },
+  methods: {
+    updateTitle(title) {
+      return (this.title = title);
+    }
   }
-}
+};
 </script>
+
+<style scoped>
+p {
+  color: rgb(31, 173, 31);
+}
+</style>
