@@ -1,0 +1,23 @@
+{
+  "message": "hello i18n !!",
+  "navbar": {
+    "calculator": "Calculator",
+    "todos": "Todos",
+    "blogs": "Blogs",
+    "home": "Home",
+    "about": "About",
+    "pomodoro": "Pomodoro"
+  },
+  "settings": {
+    "language": "Language",
+    "darkTheme": "Dark Theme"
+  },
+  "blogs": {
+    "readMore": "Read more",
+    "del": "delete"
+  },
+  "todos": {
+    "noTodos": "No Todos !!!",
+    "addTodos": "Add New Todo"
+  }
+}

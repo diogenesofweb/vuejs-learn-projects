@@ -1,7 +1,7 @@
 export default {
   computed: {
-    filtredPosts() {
-      return this.posts.filter(post => post.title.match(this.search));
+    filtredItems() {
+      return this.items.filter(el => el.title.includes(this.search));
     }
   }
 };

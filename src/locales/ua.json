@@ -1,0 +1,23 @@
+{
+  "message": "привіт i18n !!",
+  "navbar": {
+    "calculator": "Калькулятор",
+    "todos": "Туду",
+    "blogs": "Блоги",
+    "home": "Головна",
+    "about": "Про Нас",
+    "pomodoro": "Помодоро"
+  },
+  "settings": {
+    "language": "Мова",
+    "darkTheme": "Темна Тема"
+  },
+  "blogs": {
+    "readMore": "Читати",
+    "del": "видалити"
+  },
+  "todos": {
+    "noTodos": "Пусто !!!",
+    "addTodos": "Добавити Завдання"
+  }
+}
